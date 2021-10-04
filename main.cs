@@ -5,8 +5,7 @@ class MainClass {
 	{
 
 		MyName.details();
-		Console.WriteLine("First Name : {0}", MyName.fName);
-		Console.WriteLine("Last Name : {0}", MyName.lName);
+		
     
   }
 
@@ -17,7 +16,9 @@ class MainClass {
 
 	public static void details()
 	{
-		Console.WriteLine("Here is my name: ");
+	Console.WriteLine("My first and last name are: ");
+	Console.WriteLine("First Name : {0}", MyName.fName);
+	Console.WriteLine("Last Name : {0}", MyName.lName);
 	}
 	}
 }
